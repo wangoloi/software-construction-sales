@@ -100,17 +100,3 @@ AI suggestions are a useful checklist; **signal-to-noise**, **privacy**, and **w
 
 ---
 
-## Publish to GitHub
-
-If this folder is your working copy for [wangoloi/software-construction-sales](https://github.com/wangoloi/software-construction-sales):
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "RESMS: error handling, logging, README; tidy reference code"
-git remote add origin https://github.com/wangoloi/software-construction-sales.git
-git push -u origin main
-```
-
-If the remote already has commits, use `git pull origin main --rebase` before pushing, or merge as needed.
