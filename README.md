@@ -1,51 +1,7 @@
 # Real Estate Sales Management (RESMS)
 
-**Repository:** [github.com/wangoloi/software-construction-sales](https://github.com/wangoloi/software-construction-sales)
-
-Interactive CLI for property sales: login against `passwords.in`, load listings from `data.in`, menu-driven actions in `project.cpp`. Reference samples: `a1login.cpp`, `Property.h`, `Agent.h`, list templates in `lista.h` / `nodo.h`.
-
----
-
-## Contents
-
-1. [Build and run](#build-and-run)  
-2. [Data files](#data-files)  
-3. [Error handling and logging (fork)](#error-handling-and-logging-fork)  
-4. [AI vs human-oriented logging](#ai-vs-human-oriented-logging)  
-5. [Project files](#project-files)
-
----
-
-## Build and run
-
-**Compile** (from this directory):
-
-```bash
-g++ -std=c++17 -Wall -Wextra -o resms project.cpp
-```
-
-**Run** (logs go to stderr; optional redirect: `2> resms.log`):
-
-```bash
-./resms
-```
-
-On Windows: `resms.exe` or your IDE build of `project.cpp` with `logging.h`.
-
----
-
-## Data files
-
-| File | Purpose |
-|------|---------|
-| `passwords.in` | Space-separated lines: `password agent_id` |
-| `data.in` | Colon-separated fields: agent id, contact, size, room type, location, selling price |
-
----
-
-## Error handling and logging (fork)
-
-This fork adds coursework-style **targeted error handling**, **stderr logging**, and **documentation** of logging choices.
+## Fork: error handling, logging, and assignment write-up
+The changes below satisfy a coursework assignment: **targeted error handling**, **stderr logging**, and **documentation** of logging choices.
 
 ### Issues addressed
 
